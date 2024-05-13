@@ -19,7 +19,7 @@ function HelloSection(){
                         <a href="#contact" className="font-manrope font-bold text-black">CONTACT ME</a>
                         <div className="h-9 w-9 bg-black rounded-full flex items-center justify-center"><Image className="-rotate-45" src={RightArrow} alt={`right arrow`} width={15} height={15} /></div>
                     </div>
-                    <a target="_blank" href="https://www.linkedin.com/in/kepler-miranda-pereira-51382719a/" className="w-12 h-12 flex justify-center items-center bg-[#222] rounded-full">
+                    <a target="_blank" href="https://www.linkedin.com/in/keplerpereira" className="w-12 h-12 flex justify-center items-center bg-[#222] rounded-full">
                         <Image src={Linkedin} alt="Linkedin image" />
                     </a>
                     <a target="_blank" href="https://github.com/KeplerFall" className="w-12 h-12 flex justify-center items-center bg-[#222] rounded-full">
