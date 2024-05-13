@@ -32,7 +32,7 @@ function Featured(){
                         <ProjectCart itemImage={Aviator} itemTitle={"Aviator"} itemDescription={
                         `I worked as a freelancer on the project to implement internal improvements in some components of the store to facilitate customer use.`
                         } projectDate={`2023`} projectRole={"Fullstack Developer"} projectLink={`https://www.aviator.com.br/`} />
-                        <ProjectCart itemImage={Stuhrling} itemTitle={"Aviator"} itemDescription={
+                        <ProjectCart itemImage={Stuhrling} itemTitle={"Stuhrling"} itemDescription={
                         `Designer watch store, in this project React Js with Deno was used, on the DECO platform with VTEX integration.`
                         } projectDate={`2023`} projectRole={"Fullstack Developer"} projectLink={`https://www.stuhrlingbrasil.com.br/`} />
                         <ProjectCart itemImage={Maya} itemTitle={"Maya Capital"} itemDescription={
