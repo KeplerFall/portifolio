@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily:{
+        'oswald': ["Oswald", "sans-serif"],
+        'bebas': ["Bebas Neue", "sans-serif"],
+        'manrope': ["Manrope", "sans-serif"]
+      }
     },
   },
   plugins: [],
