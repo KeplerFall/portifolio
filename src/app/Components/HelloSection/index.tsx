@@ -9,10 +9,10 @@ function HelloSection(){
     return(
         <section className="flex flex-col p-4 mb-4 xl:flex xl:flex-row xl:justify-between xl:items-center xl:max-w-[1280px] xl:mx-auto xl:mb-7">
             <div className="xl:max-w-[544px]">
-                <div className="mb-3">
+                <h1 className="mb-3">
                     <p className="font-bebas font-normal text-5xl xl:text-8xl">HI, I AM</p>
                     <p className="font-bebas font-normal text-5xl xl:text-8xl">KÉPLER PEREIRA.</p>
-                </div>
+                </h1>
                 <p className="font-manrope text-[#c7c7c7] mb-7">A São Paulo, Brazil based full-stack developer passionate about building accessible and user friendly websites.</p>
                 <div className="flex gap-5 mb-12">
                     <div className={`bg-[#D3E97A] w-40 h-12 rounded-full flex items-center justify-between px-2`}>
