@@ -6,6 +6,7 @@ import Bauducco from "../../../../assets/images/bauducco.png"
 import Aviator from "../../../../assets/images/aviator.png"
 import Stuhrling from "../../../../assets/images/stuhrling.png"
 import Maya from "../../../../assets/images/maya-capital.png"
+import Enterlight from "../../../../assets/images/enterlight.png"
 import { useState } from "react"
 
 function Featured(){
@@ -19,13 +20,18 @@ function Featured(){
                 <ProjectCart itemImage={Kmays} itemTitle={"Oticas Kmays"} itemDescription={
                     `Ecommerce store focused on glasses, in this project the VTEX platform was used, with React, GraphQL, Sass and API consumption. I worked on this project from beginning to end, from the web pages to the backend applications.`
                 } projectDate={`2024`} projectRole={"Fullstack Developer"} projectLink={`https://www.oticaskmays.com.br/`} />
-                <ProjectCart itemImage={Simmsuprimentos} itemTitle={"Simm Suprimentos"} itemDescription={
-                    `Virtual variety store, I worked on the website domain transition, where the sale to another brand took place, I worked using VUE.JS to redo the components using the VTEX Legacy platform.`
-                } projectDate={`2022`} projectRole={"Fullstack Developer"} projectLink={`https://www.simmsuprimentos.com.br/`} />
+
+                <ProjectCart itemImage={Enterlight} itemTitle={"Enterlight"} itemDescription={
+                    `In this project I worked on an ongoing basis, transforming all CSS into Sass and creating customizable components to improve the user experience.`
+                } projectDate={`2024`} projectRole={"Fullstack Developer"} projectLink={`https://www.enterlight.com.br/`} />
+                
                 { !showMore ?
                     null
                 :
                     <>
+                        <ProjectCart itemImage={Simmsuprimentos} itemTitle={"Simm Suprimentos"} itemDescription={
+                            `Virtual variety store, I worked on the website domain transition, where the sale to another brand took place, I worked using VUE.JS to redo the components using the VTEX Legacy platform.`
+                        } projectDate={`2022`} projectRole={"Fullstack Developer"} projectLink={`https://www.simmsuprimentos.com.br/`} />
                         <ProjectCart itemImage={Bauducco} itemTitle={"Bauducco"} itemDescription={
                         `I was responsible for the store's Ongoing, implementing adjustments and new features to improve the user's shopping experience.`
                         } projectDate={`2021`} projectRole={"Fullstack Developer"} projectLink={`https://www.lojabauducco.com.br/`} />
